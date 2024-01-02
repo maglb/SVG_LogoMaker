@@ -1,58 +1,55 @@
 # SVG_LogoMaker
 
-# Weather-Dashboard
-
 ## Description
 
-For this project, our task was to to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+For this project, our task was to build a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file.
 
 Below are the assigmemnt's requirements:
 
 ### User Story
 
-* AS A traveler
-* I WANT to see the weather outlook for multiple cities
-* SO THAT I can plan a trip accordingly
+* AS a freelance web developer
+* I WANT to generate a simple logo for my projects
+* SO THAT I don't have to pay a graphic designer
 
 ### Acceptance Criteria
 
-* GIVEN a weather dashboard with form inputs
-* WHEN I search for a city
-* THEN I am presented with current and future conditions for that city and that city is added to the search history
-* WHEN I view current weather conditions for that city
-* THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-* WHEN I view future weather conditions for that city
-* THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-* THEN I am again presented with current and future conditions for that city
+* GIVEN a command-line application that accepts user input
+* WHEN I am prompted for text
+* THEN I can enter up to three characters
+* WHEN I am prompted for the text color
+* THEN I can enter a color keyword (OR a hexadecimal number)
+* WHEN I am prompted for a shape
+* THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+* WHEN I am prompted for the shape's color
+* THEN I can enter a color keyword (OR a hexadecimal number)
+* WHEN I have entered input for all the prompts
+* THEN an SVG file is created named `logo.svg`
+* AND the output text "Generated logo.svg" is printed in the command line
+* WHEN I open the `logo.svg` file in a browser
+* THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## How to use it
 
-Enter in the search bar the city you would like to get the weather for. Then the window will display the current weather and a 5-Day forecast for the city searched. Each search entry is saved and a button is created for each new search. If you want to get the weather of a city already search directly on the corresponding button and the weather for it will be displayed.
+Type 'node index' into the terminal and answer to the prompts. Once all questions have been answer, a svg file named 'logo.svg' will be created in the main folder.
+In order to test the shapes class, type 'npm test' into the terminal.
 
 ## Links
 
 In order to complete this assignment, I have referred to a few online resources and previous assignments:
 
-#### DayJs documentation:
-* https://day.js.org/docs/en/
+#### About SVG:
+* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started
 
-#### OpenWeather documentation
-* https://openweathermap.org/forecast5
-* https://openweathermap.org/current#list
+#### About classes
+* https://medium.com/beginners-guide-to-mobile-web-development/super-and-extends-in-javascript-es6-understanding-the-tough-parts-6120372d3420
+* https://medium.com/sessionstack-blog/how-javascript-works-3-types-of-polymorphism-f10ff4992be1
 
-
-#### GeocodingAPI documentation
-* https://openweathermap.org/api/geocoding-api
-
-#### Bootstrap
-* https://getbootstrap.com/docs/5.1/getting-started/introduction/
-
-#### Font Awesome
-Data Base for the icons
-https://fontawesome.com/
+#### On writting Jest test
+* https://www.testim.io/blog/jest-testing-a-helpful-introductory-tutorial/
+* https://jestjs.io/docs/expect
 
 
 ## Screenshots
 
-![Logo Output Example](./assets/image/Screen%20Shot%202023-11-27%20at%206.36.02%20PM.png)
+![Logo Output Example](./image/Screen%20Shot%202024-01-02%20at%2010.11.04%20AM.png)
