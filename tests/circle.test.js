@@ -2,7 +2,7 @@ const Shape = require('../lib/shape.js');
 const Circle = require('../lib/circle.js');
 
 describe('Circle', () => {
-    it('should render string creating a blue circle', () => {
+    it('should render a string creating a blue circle', () => {
         const text = '';
         const textColor = '';
         const fillColor = 'blue';

@@ -2,7 +2,7 @@ const Shape = require('../lib/shape.js');
 const Square = require('../lib/square.js');
 
 describe('Square', () => {
-    it('should render string creating a red square', () => {
+    it('should render a string creating a red square', () => {
         const text = '';
         const textColor = '';
         const fillColor = 'red';

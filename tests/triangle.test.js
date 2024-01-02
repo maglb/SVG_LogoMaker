@@ -2,7 +2,7 @@ const Shape = require('../lib/shape.js');
 const Triangle = require('../lib/triangle.js');
 
 describe('Triangle', () => {
-    it('should render string creating a green triangle', () => {
+    it('should render a string creating a green triangle', () => {
         const text = '';
         const textColor = '';
         const fillColor = 'green';
